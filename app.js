@@ -1,5 +1,5 @@
 let numSquares = 6;
-let colors = randomColors(6);
+let colors = randomColors(numSquares);
 
 let squares = document.querySelectorAll(".square");
 let pickedColor = pickColor(colors);
@@ -25,7 +25,7 @@ resetButton.addEventListener("click", function() {
     //add random colors to square divs
     squares[i].style.backgroundColor = colors[i];
   }
-  h1.style.backgroundColor = "#232323";
+  h1.style.backgroundColor = "steelblue";
   resetButton.textContent = "New Colors"; //bugfix
 });
 

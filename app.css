@@ -1,5 +1,16 @@
 body {
   background-color: #232323;
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+#colorDisplay {
+  font-size: 200%;
+}
+
+#message {
+  display: inline-block;
+  width: 20%;
 }
 
 .square {
@@ -8,11 +19,13 @@ body {
   padding-bottom: 30%;
   float: left;
   margin: 1.66%;
+  border-radius: 15%;
+  transition: background-color 0.6s;
 }
 
 #container {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 #navbar {
@@ -24,8 +37,33 @@ body {
 
 h1 {
   color: white;
+  text-align: center;
+  background-color: steelblue;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1.1;
+  padding: 20px 0;
+  margin: 0;
 }
 
 .selected {
-  background-color: blue;
+  color: white;
+  background-color: steelblue;
+}
+
+button {
+  color: steelblue;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: inherit;
+}
+
+button:hover {
+  color: white;
+  background-color: steelblue;
+  transition: all 0.3s;
 }
