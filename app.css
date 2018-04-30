@@ -1,6 +1,5 @@
 body {
   background-color: #232323;
-  height: 100vh;
 }
 
 .square {
@@ -17,5 +16,9 @@ body {
 }
 
 h1 {
+  color: white;
+}
+
+span {
   color: white;
 }
